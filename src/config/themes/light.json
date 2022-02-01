@@ -1,0 +1,13 @@
+{
+  "mode": "dark",
+  "palette": {
+    "heroBackground": "#FFF",
+    "neutral000": "#000"
+  },
+  "font": {
+    "colors": {
+      "_h1": "{{palette.neutral000}}",
+      "h1": "#000"
+    }
+  }
+}
