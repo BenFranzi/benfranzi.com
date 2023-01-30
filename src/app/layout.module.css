@@ -9,3 +9,8 @@
     display: flex;
     justify-content: center;
 }
+@media all and (max-width: 600px) {
+    .main {
+        display: block;
+    }
+}

@@ -5,8 +5,8 @@ export default function Head() {
 
     return (
         <>
-            <title>Ben Franzi</title>
-            <meta property="og:title" content={`The song of the day: ${data.song} - ${data.artists}`} />
+            <title>{`Ben Franzi - 📀${data.song} - ${data.artists}`}</title>
+            <meta property="og:title" content={`📀: ${data.song} - ${data.artists}`} />
             <meta property="og:description" content={`${data.song} - ${data.artists}`} />
             <meta property="description" content={`${data.song} - ${data.artists}`} />
             <meta property="og:image" content={data.cover} />
