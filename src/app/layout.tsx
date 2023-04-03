@@ -1,6 +1,5 @@
 import './globals.css'
 import Navigation from "@/components/navigation";
-import styles from './layout.module.css';
 
 export default function RootLayout({
   children,
@@ -14,9 +13,9 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={styles.layout}>
+      <body>
         <Navigation />
-        <main className={styles.main}>
+        <main>
             {children}
         </main>
       </body>

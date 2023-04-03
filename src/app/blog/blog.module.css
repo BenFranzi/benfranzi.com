@@ -1,0 +1,10 @@
+.blog {
+  margin: auto;
+  max-width: 1336px;
+  padding: 0 24px;
+}
+
+.blog p {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+}

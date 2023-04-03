@@ -1,15 +1,16 @@
 .main {
-    border-bottom: 1px solid rgb(var(--foreground-rgb));
+  border-bottom: 1px solid rgb(var(--foreground-rgb));
 }
 
 .content {
-    max-width: var(--max-width);
-    margin: 0 auto;
-    padding: 1rem;
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .title {
-    font-family: var(--font-sans);
-    font-weight: lighter;
-    color: rgb(var(--accent-rgb));
+  font-family: var(--font-sans);
+  font-weight: lighter;
+  color: rgb(var(--accent-rgb));
+  text-decoration: none;
 }
