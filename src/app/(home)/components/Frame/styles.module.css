@@ -1,0 +1,35 @@
+.main {
+    flex: 1;
+}
+
+.frame {
+    background: url('data:image/svg+xml,<svg width="1006" height="823" viewBox="0 0 1006 823" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M849.682 2H685L849.682 163.388V2Z" fill="%23746BEB" stroke="black" stroke-width="4"/><path d="M849.682 810.388H685L849.682 649V810.388Z" fill="%237FBC8C" stroke="black" stroke-width="4"/><path d="M2.19577 665.118H158.094L2.19577 817.723V665.118Z" fill="%23746BEB" stroke="black" stroke-width="4"/><path d="M2.19577 817.723H158.094L2.19577 665.118V817.723Z" stroke="black" stroke-width="4"/><path d="M618.113 85.9876C618.113 131.232 580.706 167.975 534.479 167.975C488.252 167.975 450.844 131.232 450.844 85.9876C450.844 40.7435 488.252 4 534.479 4C580.706 4 618.113 40.7435 618.113 85.9876Z" stroke="black" stroke-width="4"/><path d="M537.968 85.9876C537.968 131.232 500.561 167.975 454.334 167.975C408.107 167.975 370.699 131.232 370.699 85.9876C370.699 40.7435 408.107 4 454.334 4C500.561 4 537.968 40.7435 537.968 85.9876Z" fill="%237FBC8C" stroke="black" stroke-width="4"/><path d="M163.779 270.98C163.779 314.707 127.602 350.223 82.8897 350.223C38.1775 350.223 2 314.707 2 270.98C2 227.253 38.1775 191.737 82.8897 191.737C127.602 191.737 163.779 227.253 163.779 270.98Z" fill="%237FBC8C" stroke="black" stroke-width="4"/><path d="M452.334 85.9876C452.334 131.232 414.926 167.975 368.699 167.975C322.473 167.975 285.065 131.232 285.065 85.9876C285.065 40.7435 322.473 4 368.699 4C414.926 4 452.334 40.7435 452.334 85.9876Z" stroke="black" stroke-width="4"/><line x1="286.35" y1="84.5366" x2="539.96" y2="83.4387" stroke="black" stroke-width="4"/><path d="M83.9876 2L106.079 61.7006L165.779 83.7919L106.079 105.883L83.9876 165.584L61.8964 105.883L2.19574 83.7919L61.8964 61.7006L83.9876 2Z" fill="black"/><path d="M758.792 541.763L779.007 596.395L779.327 597.257L780.189 597.576L834.821 617.792L780.189 638.007L779.327 638.327L779.007 639.189L758.792 693.821L738.576 639.189L738.257 638.327L737.395 638.007L682.763 617.792L737.395 597.576L738.257 597.257L738.576 596.395L758.792 541.763Z" fill="%23F3CEB4" stroke="black" stroke-width="4"/><circle cx="532.832" cy="735.931" r="79.7919" transform="rotate(90 532.832 735.931)" stroke="black" stroke-width="4"/><rect x="613" y="656" width="160" height="329" rx="80" transform="rotate(90 613 656)" stroke="black" stroke-width="4"/><rect x="3.09787" y="272.98" width="160.682" height="216.673" rx="75.5" stroke="black" stroke-width="4"/><mask id="path-15-inside-1_2_62" fill="white"><path d="M2 349H166V411H2V349Z"/></mask><path d="M2 353H166V345H2V353ZM166 407H2V415H166V407Z" fill="black" mask="url(%23path-15-inside-1_2_62)"/><line x1="283.062" y1="734.48" x2="611.997" y2="734.001" stroke="black" stroke-width="4"/><mask id="mask0_2_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="693" y="224" width="313" height="312"><ellipse cx="849.448" cy="379.899" rx="155.899" ry="156.448" transform="rotate(-90 849.448 379.899)" fill="black"/></mask><g mask="url(%23mask0_2_62)"><path d="M690.804 537.985V224H852.192V537.985H690.804Z" fill="black"/></g><mask id="mask1_2_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="765" y="295" width="189" height="170"><ellipse cx="859.328" cy="379.899" rx="84.5366" ry="93.8685" transform="rotate(-90 859.328 379.899)" fill="%23FFDC00"/></mask><g mask="url(%23mask1_2_62)"><path d="M764.143 465.622V295.362H860.975V465.622H764.143Z" fill="%23FFDC00"/></g><mask id="mask2_2_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="451" y="654" width="166" height="83"><path d="M451.04 654.139H616.82V736.48H451.04V654.139Z" fill="black"/></mask><g mask="url(%23mask2_2_62)"><circle cx="532.832" cy="735.931" r="81.7919" transform="rotate(90 532.832 735.931)" fill="black"/></g><mask id="mask3_2_62" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="524" width="166" height="83"><path d="M0 524.59H165.779V606.93H0V524.59Z" fill="black"/></mask><g mask="url(%23mask3_2_62)"><circle cx="81.7919" cy="606.381" r="81.7919" transform="rotate(90 81.7919 606.381)" fill="black"/></g><path d="M538.321 6.39151V166.682" stroke="black" stroke-width="4"/></svg>');
+    width: 100%;
+    aspect-ratio: 1;
+    background-size: cover;
+    padding: 25%;
+}
+
+.frameContent {
+}
+
+.frameContent h1 {
+    margin: 0;
+    font-size: min(15vw, 100px);
+}
+
+.frameContent a {
+    font-weight: bold;
+    color: #FF00C7;
+    position: relative;
+}
+
+.frameContent a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #FF00C7;
+    height: 2px;
+    width: 100%;
+}

@@ -7,13 +7,16 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+    colors: {
+      "primary": "#000",
+      "secondary": "#FFF",
+      "accent-primary": "#FFDC00",
+      "accent-secondary": "#BAFDA2",
+      "accent-tertiary": "#69D3E8",
     },
+    borderRadius: {
+      "circle": "100%",
+    }
   },
   plugins: [],
 };

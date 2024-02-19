@@ -1,0 +1,25 @@
+.picture {
+    display: inline-block;
+    position: relative;
+}
+
+.picture img {
+    position: relative;
+}
+
+.picture::before {
+    position: absolute;
+    content: '';
+    @apply bg-accent-tertiary;
+    width: 100%;
+    height: 100%;
+    top: 32px;
+    left: 32px;
+    border: 4px solid black;
+}
+
+.flower {
+    position: absolute;
+    bottom: -196px;
+    left: -48px;
+}
