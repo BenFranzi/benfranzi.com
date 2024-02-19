@@ -13,6 +13,7 @@ const config: Config = {
       "accent-primary": "#FFDC00",
       "accent-secondary": "#BAFDA2",
       "accent-tertiary": "#69D3E8",
+      "accent-status": "#9168FC",
     },
     borderRadius: {
       "circle": "100%",
