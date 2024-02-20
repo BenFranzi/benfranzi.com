@@ -10,10 +10,14 @@ const config: Config = {
     colors: {
       "primary": "#000",
       "secondary": "#FFF",
+      "footer": "#F1F1F1",
       "accent-primary": "#FFDC00",
       "accent-secondary": "#BAFDA2",
       "accent-tertiary": "#69D3E8",
       "accent-status": "#9168FC",
+      "accent-banner": "#B2FF55",
+      "highlight": "#ebd1ff",
+      "link": "#FF69B4",
     },
     borderRadius: {
       "circle": "100%",

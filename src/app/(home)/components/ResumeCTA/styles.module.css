@@ -1,0 +1,5 @@
+.resumeCTA {
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='32' ry='32' stroke='%23746BEBFF' stroke-width='8' stroke-dasharray='32%2c 32' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 16px;
+    height: 84px;
+}

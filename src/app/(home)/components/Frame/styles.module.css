@@ -10,7 +10,17 @@
     padding: 25%;
 }
 
-.frameContent {
+@media (max-width: 1024px) {
+    .frame {
+        background: none;
+        padding: 0;
+        aspect-ratio: unset;
+    }
+}
+
+.frameContent p {
+    font-size: 1.125rem;
+
 }
 
 .frameContent h1 {
@@ -20,16 +30,11 @@
 
 .frameContent a {
     font-weight: bold;
-    color: #FF00C7;
+    color: #FF69B4;
     position: relative;
+    padding: 2px;
 }
 
-.frameContent a::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    background: #FF00C7;
-    height: 2px;
-    width: 100%;
+.frameContent a:hover {
+    text-decoration: underline;
 }

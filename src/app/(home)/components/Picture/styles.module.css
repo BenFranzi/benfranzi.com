@@ -22,4 +22,16 @@
     position: absolute;
     bottom: -196px;
     left: -48px;
+    animation: spin 5s ease-out;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(2turn);
+    }
 }

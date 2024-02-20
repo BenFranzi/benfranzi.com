@@ -7,3 +7,10 @@
 
 body {
 }
+
+::-moz-selection { /* Code for Firefox */
+    @apply bg-highlight;
+}
+::selection {
+    @apply bg-highlight;
+}
