@@ -15,7 +15,7 @@ export default function Footer() {
                 <span className={styledFont.className}>© Copyright {YEAR} by Ben Franzi</span>
                 <div className="hidden xl:block"><NavLinks/></div>
                 <div className="flex gap-4 items-center">
-                    {siteMetadata.footerIcons
+                    {siteMetadata.footer
                         .map((key) => siteMetadata.external[key])
                         .map(({url, icon, label}) => (
                             <Link

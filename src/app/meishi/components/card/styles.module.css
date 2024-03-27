@@ -1,0 +1,76 @@
+.card {
+    --border: 1px solid black;
+    background: #FF003D;
+    min-height: 100vh;
+}
+/*
+ grid-template-areas:
+    "head head"
+    "nav  main"
+    "nav  foot";
+ */
+.top {
+    display: flex;
+}
+
+.title {
+    flex: 1 0 auto;
+    grid-area: title;
+    font-size: 5.375rem;
+    font-weight: bold;
+    line-height: 1.25;
+    white-space: pre;
+    margin-top: 32px;
+    border-top: var(--border);
+}
+
+.role {
+    flex: 0 1 auto;
+    grid-area: role;
+    position: relative;
+    display: flex;
+    font-size: 1rem;
+
+    & h3 {
+        width:  calc(2 * 5.375rem);
+        background: red;
+        position: absolute;
+        white-space: nowrap;
+        transform-origin: top left;
+        rotate: 90deg;
+        transform: translateX(48px);
+        border-bottom: var(--border);
+    }
+}
+
+.middle {
+    border-top: var(--border);
+    display: flex;
+    height: 122px;
+    overflow: hidden;
+}
+
+.picture {
+    border-right: var(--border);
+}
+
+.skills {
+    color: white;
+    white-space: nowrap;
+}
+
+.divider {
+    border-top: var(--border);
+    border-bottom: var(--border);
+    height: 24px;
+    display: relative;
+
+    &::after {
+        content: '';
+
+    }
+}
+
+.socials {
+    grid-area: socials;
+}

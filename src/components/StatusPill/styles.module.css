@@ -17,6 +17,11 @@
     position: relative;
 }
 
+.profilePicture img {
+    border-radius: 100%;
+}
+
+
 .profilePicture::before, .profilePicture::after {
     content: '';
     position: absolute;

@@ -14,7 +14,7 @@ export default function Home() {
     return (
         <main>
             <Header pathname="/" />
-            <Fold />
+            {/*<Fold />*/}
             <Status />
             <Blog />
             <Banner />
