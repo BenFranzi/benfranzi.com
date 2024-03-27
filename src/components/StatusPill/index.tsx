@@ -14,9 +14,7 @@ const activities = [
     'Building rockets',
 ];
 
-function getActivity(time: Date) {
-    const hour = time.getHours();
-
+function getActivity(hour: number) {
     const emoji = hour < 6 || hour > 22 ? '🌙'
         : hour > 8 && hour < 6 ? '👨‍💻'
         : '🚀';
@@ -27,9 +25,9 @@ function getActivity(time: Date) {
 }
 
 export default function StatusPill() {
-    const [time, setTime] = useState(new Date());
-    const formattedTime = useMemo(() => time.toLocaleTimeString([], { hour: '2-digit', minute:'2-digit', hour12: true }), [time]);
-    const activity = useMemo(() => getActivity(time), [time]);
+    const [time, setTime] = useState<Date | undefined>();
+    const formattedTime = useMemo(() => !time ? "..." : time.toLocaleTimeString([], { hour: '2-digit', minute:'2-digit', hour12: true }), [time]);
+    const activity = useMemo(() => getActivity(time?.getHours() ?? 20), [time]);
 
     useEffect(() => {
         const controller = new AbortController();
