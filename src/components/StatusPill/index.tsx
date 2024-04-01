@@ -26,7 +26,7 @@ function getActivity(hour: number) {
 
 export default function StatusPill() {
     const [time, setTime] = useState<Date | undefined>();
-    const formattedTime = useMemo(() => !time ? "" : time.toLocaleTimeString([], { hour: '2-digit', minute:'2-digit', hour12: true }), [time]);
+    const formattedTime = useMemo(() => !time ? "" : time.toLocaleTimeString([], { hour: '2-digit', minute:'2-digit', hour12: false }), [time]);
     const activity = useMemo(() => getActivity(time?.getHours() ?? 20), [time]);
 
     useEffect(() => {
