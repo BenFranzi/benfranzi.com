@@ -1,6 +1,7 @@
 import styles from './styles.module.css';
 import {Space_Grotesk} from "next/font/google";
 import Link from "next/link";
+import siteMetadata from "@/data/siteMetadata";
 
 
 const styledFont = Space_Grotesk({ subsets: ['latin']});
@@ -16,7 +17,7 @@ function Phrase() {
 
 export default function Banner() {
     return (
-        <Link href={'/contact'}>
+        <Link  href={siteMetadata.external.linkedin.url} target="_blank">
             <div className={styles.banner}>
                 <div className={styles.marquee}>
                     { Array.from({ length: 10 }).map((_, index) => <Phrase key={index} />) }
